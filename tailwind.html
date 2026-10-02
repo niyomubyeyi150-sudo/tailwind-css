@@ -7,9 +7,17 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Tailwind css</title>
 </head>
-
 <body>
-    <h1 class="  text-red-500 font-semibold text-center">Hello World!</h1>
+<nav class="bg-gray-800 p-4 m-t-8 diplay: flex justify-between items-center">
+    <h1 class="text-white text-2xl font-bold mb-4">Tailwind Intro</h1>
+    <ul class="flex space-x-4">
+        <li><a href="index.html" class="text-white hover:text-gray-300">Home</a></li>
+        <li><a href="profile.html" class="text-white hover:text-gray-300">Profile</a></li>
+        <li><a href="tailwind.html" class="text-white hover:text-gray-300">Tailwind</a></li>
+    </ul>
+</nav>
+
+<h1 class="  text-red-500 font-semibold text-center">Hello World!</h1>
     <div class="bg-green-500 text-white p-4 text-center w-50 m-8 text-2xl text-bold rounded-full border-1 cursor-pointer shadow-xl hover:bg-green-700 ">
         click me
     </div>
@@ -17,35 +25,7 @@
              focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500">Read more</a>
              <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">checkout</button>
 
-            
-         <div class="max-w-sm mx-auto bg-white rounded-2xl shadow-lg p-6 text-center">
-
-    <img
-        src="/image/thumb_show (5).jpeg"
-        alt="Portrait of Aline"
-        class="size-24 rounded-full mx-auto mb-4 ring-4 ring-indigo-100"/>
-
-    <h2 class="text-xl font-semibold text-slate-800">
-        Aline Uwase
-    </h2>
-
-    <p class="text-sm text-slate-500 mb-4">
-        Frontend Developer 
-    </p>
-
-    <p class="text-slate-600 leading-relaxed mb-6">
-        I build accessible, responsive interfaces and love clean design systems.
-    </p>
-
-    <a
-        href="#"
-        class="inline-block bg-indigo-600 text-white font-medium px-5 py-2 rounded-lg
-        hover:bg-indigo-700 transition-colors
-        focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400">
-        Contact me
-    </a>
-
-</div>
+      <div class="bg-black-500 h-100vh w-100%">
 </body>
 
 </html>
